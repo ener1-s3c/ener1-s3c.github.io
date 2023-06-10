@@ -35,3 +35,7 @@ Security researcher, Currently work as Vulnerability Assessor. I regularly do re
 - June 2023 Acknowledged by Kominfo for reporting Security Vulnerabilities in their systems.
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ade4174b-69b9-4527-a00f-4bac27839956)
 
+### Blog
+2023
+- [Regex Cheatsheet](https://0x4a6f76616e.medium.com/regex-stuff-ef8ffa32a2c9)
+- [eWPT Cheatsheet](https://0x4a6f76616e.medium.com/ewpt-short-journey-note-15e6c7326157)
