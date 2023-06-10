@@ -20,7 +20,7 @@ author: Benedictus Jovan
 ###############################################
 
 navbar-links:
-  About Me: "~history"
+  About Me: "me"
   #Resources:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
    # - Learn markdown: "https://www.markdowntutorial.com/"
