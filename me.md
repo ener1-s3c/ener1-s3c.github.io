@@ -5,13 +5,15 @@ subtitle: Jovan
 ---
 
 ## About Me
-Security researcher, currently work as Vulnerability Assessor. I regularly do research for Public Program & Private Program on Hackerone & Bugcrowd, also i do research for Private Company. My research focus on Web Application Pentest & Network Pentest.
+Security researcher, currently work as Vulnerability Assessor. I regularly do research for Public Program & Private Program on Hackerone & Bugcrowd, also I do research for Private Company. My research focus on Web Application Pentest & Network Pentest.
 
 ## Bio
 
 - Name : Benedictus Jovan
 - Linkedin : [Benedictus Jovan](https://linkedin.com/in/benedictus-jovan)
 - Medium : [Benedictus Jovan](https://medium.com/@0x4a6f76616e)
+- Hackerone : [Benedictus Jovan](https://hackerone.com/ener1?type=user)
+- BUgcrowd : [Benedictus Jovan](https://bugcrowd.com/ener1)
 
 ## Work Experience
 - April 2020 - Aug 2021 (1 Year 5 Month), System Engineer [Maxplus Indonesia Anugerah](https://www.maxplus.co.id/)
