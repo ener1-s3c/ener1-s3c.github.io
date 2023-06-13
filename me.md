@@ -32,7 +32,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ### Bug Bounty / VDP
 - Rank 1 on [Prolinx VDP](https://hackerone.com/prolinx-vdp/thanks?type=team)
-![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/2e087b08-dce7-4bee-94ec-d0f054715366)
+![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/69e58d89-5b7c-4b92-aacb-05eafcc416da)
 
 - June 2023 Acknowledged by Kominfo for reporting Security Vulnerabilities in their systems.
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ade4174b-69b9-4527-a00f-4bac27839956)
