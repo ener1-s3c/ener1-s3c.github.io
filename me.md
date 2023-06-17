@@ -19,8 +19,8 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - April 2020 - Aug 2021 (1 Year 5 Month), System Engineer [Maxplus Indonesia Anugerah](https://www.maxplus.co.id/)
 - April 2021 - Mar 2022 (1 Year), Information Technology Security Analyst [Maxplus Indonesia Anugerah](https://www.maxplus.co.id/)
 - Dec 2022 - Present, Vulnerability Assessor [Q2 Technology](https://www.q2.co.id/)
-- Jan 2023 - Present, Freelance Security Analyst [Hackerone](https://hackerone.com/)
-- Jan 2023 - Present, Freelance Security Analyst [BugCrowd](https://bugcrowd.com/)
+- Jan 2023 - Present, Freelance Security Researcher [Hackerone](https://hackerone.com/)
+- Jan 2023 - Present, Freelance Security Researcher [BugCrowd](https://bugcrowd.com/)
 
 ## Achievements
 
