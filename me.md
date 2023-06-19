@@ -34,8 +34,12 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - Rank 1 on [Prolinx VDP](https://hackerone.com/prolinx-vdp/thanks?type=team)
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/69e58d89-5b7c-4b92-aacb-05eafcc416da)
 
-- June 2023 Acknowledged by Kominfo for reporting Security Vulnerabilities in their systems.
+- June 2023 Acknowledged by Kementerian Komunikasi dan Informatika (Kominfo) for reporting Security Vulnerabilities in their systems.
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ade4174b-69b9-4527-a00f-4bac27839956)
+
+- June 2023 Acknowledged by Siber dan Sandi Provinsi DKI Jakarta for reporting Security Vulnerabilities in their systems.
+![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/cc166b3e-1bd9-4804-a5b2-1a6503cc594b)
+
 
 ### Blog
 2023
