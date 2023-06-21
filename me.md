@@ -46,7 +46,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ed5cc60f-cab9-4978-9e8c-f8c4e650827a)
 
-- June 2023 Acknowledged by Badan Pengawas Obat dan Makanan (BPOM) for reporting Security Vulnerabilities in their systems.
+- June 2023 Acknowledged by Badan Pengawas Obat dan Makanan (BPOM) for reporting Security Vulnerabilities in their systems. [Verify Certification](https://srikandi.arsip.go.id/result/F_1686604602JYXtsfuILzWx0EvHGCm3sp6KgInjTBKwQjhc5lNG.pdf)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/41b406ff-017f-4008-8a70-4dd8bc1dfc02)
 
