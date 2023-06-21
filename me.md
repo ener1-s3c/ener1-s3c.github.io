@@ -42,10 +42,13 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/cc166b3e-1bd9-4804-a5b2-1a6503cc594b)
 
-- June 2023 Acknowledged by Siber dan Sandi Kabupaten Bogor for reporting Security Vulnerabilities in their systems. 
+- June 2023 Acknowledged by Siber dan Sandi Kabupaten Bogor for reporting Security Vulnerabilities in their systems. [Verify Certification](https://esign.bogorkab.go.id/view/0G638zPk8BHpCe2bQaSKmlq4VAbLemU2)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ed5cc60f-cab9-4978-9e8c-f8c4e650827a)
 
+- June 2023 Acknowledged by Badan Pengawas Obat dan Makanan (BPOM) for reporting Security Vulnerabilities in their systems.
+
+![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/41b406ff-017f-4008-8a70-4dd8bc1dfc02)
 
 
 ### Blog
