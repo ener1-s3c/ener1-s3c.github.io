@@ -32,6 +32,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ### Bug Bounty / VDP
 - Rank 1 on [Prolinx VDP](https://hackerone.com/prolinx-vdp/thanks?type=team)
+  
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/69e58d89-5b7c-4b92-aacb-05eafcc416da)
 
 - June 2023 Acknowledged by Kementerian Komunikasi dan Informatika (Kominfo) for reporting Security Vulnerabilities in their systems. [Verify Certification](https://simaya.kominfo.go.id/tte/334b75b8-e1d7-4b99-9d33-2253001e6d02)
@@ -49,6 +50,10 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - June 2023 Acknowledged by Badan Pengawas Obat dan Makanan (BPOM) for reporting Security Vulnerabilities in their systems. [Verify Certification](https://srikandi.arsip.go.id/result/F_1686604602JYXtsfuILzWx0EvHGCm3sp6KgInjTBKwQjhc5lNG.pdf)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/41b406ff-017f-4008-8a70-4dd8bc1dfc02)
+
+- June 2023 Acknowledged by Dinas Komunikasi dan Informatika Kota Padang for reporting Security Vulnerabilities in their systems. 
+
+![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/91058bf5-3d64-48a8-afa4-35ed6d778be4)
 
 
 ### Blog
