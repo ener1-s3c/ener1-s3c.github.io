@@ -55,7 +55,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/91058bf5-3d64-48a8-afa4-35ed6d778be4)
 
-- June 2023 Acknowledged by Dinas Komunikasi Informatika dan Statistik Kota Magelang for reporting Security Vulnerabilities in their systems.
+- June 2023 Acknowledged by Dinas Komunikasi Informatika dan Statistik Kota Magelang for reporting Security Vulnerabilities in their systems. [Verify Certification](https://spandista.diskominsta.magelangkota.go.id/surat.php?rand=MTM2)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/0f5c0362-5636-40ff-95bd-82b8e6461756)
 
