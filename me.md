@@ -59,7 +59,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/0f5c0362-5636-40ff-95bd-82b8e6461756)
 
-- August 2023 Acknowledged by Dinas Komunikasi dan Informatika Daerah Istimewa Yogyakarta for reporting Security Vulnerabilities in their systems. 
+- August 2023 Acknowledged by Dinas Komunikasi dan Informatika Daerah Istimewa Yogyakarta for reporting Security Vulnerabilities in their systems. [Verify Certification](https://sadewa.jogjaprov.go.id/pdf?id=U2FsdGVkX18rs1L2a3S4hUYquxxynbhNMAtD3fFkSRYf9aeF17gfAz185APQrtb3jFQqcK8gxwQCxoQcnQJW6b0VjpBB8Ae1Q2u3A4le1Q2u3A4l)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/cfe3a753-8292-477e-8b0a-4db7f9f8d2a7)
 
