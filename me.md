@@ -67,6 +67,11 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/fb8e9747-a54d-4728-8d5e-bd15608eeb05)
 
+- January 2024 Acknowledged by Bijak Memilih Team. [Verify Hall Of Fame / Apreciation Page](https://www.bijakmemilih.id/apresiasi-keamanan)
+
+<img width="1433" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/29a33028-2e62-4318-9ebf-a69b283dc72c">
+
+
 
 
 
