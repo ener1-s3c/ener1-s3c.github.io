@@ -79,3 +79,5 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 2023
 - [Regex Cheatsheet](https://0x4a6f76616e.medium.com/regex-stuff-ef8ffa32a2c9)
 - [eWPT Cheatsheet](https://0x4a6f76616e.medium.com/ewpt-short-journey-note-15e6c7326157)
+- [PII Leakage on bijakmemilih.id](https://0x4a6f76616e.medium.com/pii-leakage-on-bijakmemilih-id-3c5835e5ee8c)
+
