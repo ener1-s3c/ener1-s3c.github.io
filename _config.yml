@@ -21,6 +21,7 @@ author: Benedictus Jovan
 
 navbar-links:
   About Me: "me"
+  Advisory: "advisory"
   #Resources:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
    # - Learn markdown: "https://www.markdowntutorial.com/"
