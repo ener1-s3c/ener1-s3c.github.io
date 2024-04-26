@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request Example</title>
+</head>
+<body>
+<div id="response-container"></div> <!-- Container for displaying the response -->
+
+<script>
+  // Function to get URL parameter by name
+  function getUrlParameter(name) {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    return urlParams.get(name);
+  }
+
+  var jwt = getUrlParameter('puter.auth.token');
+
+  if (jwt) {
+    var url = 'https://api.puter.com/whoami?auth_token=' + jwt;
+    fetch(url, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Origin': 'x.id' // Custom Origin header
+      },
+      credentials: 'include' // Include cookies in the request
+    })
+    .then(response => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error('Request failed with status:', response.status);
+      }
+    })
+    .then(data => {
+      // Display the response in the UI
+      document.getElementById('response-container').innerHTML = JSON.stringify(data, null, 2);
+    })
+    .catch(error => {
+      console.error('Error:', error.message); // Log any errors
+    });
+  } else {
+    console.error('JWT not found in URL.'); // JWT not available in URL
+  }
+</script>
+</body>
+</html>
