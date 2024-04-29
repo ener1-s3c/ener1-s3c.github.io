@@ -12,7 +12,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - Name : Benedictus Jovan
 - Linkedin : [Benedictus Jovan](https://linkedin.com/in/benedictus-jovan)
 - Medium : [Benedictus Jovan](https://medium.com/@0x4a6f76616e)
-- Hackerone : [Benedictus Jovan](https://hackerone.com/ener1?type=user)
+- Hackerone : [Benedictus Jovan](https://hackerone.com/eneri)
 - Bugcrowd : [Benedictus Jovan](https://bugcrowd.com/ener1)
 
 ## Work Experience
