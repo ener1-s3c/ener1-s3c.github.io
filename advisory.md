@@ -17,5 +17,6 @@ title: Advisory
 - [CVE-2024-3023](https://ener1-s3c.github.io/CVE/CVE-2024-3023)
 - [CVE-2024-3030](https://ener1-s3c.github.io/CVE/CVE-2024-3030)
 - [CVE-2024-4083](https://ener1-s3c.github.io/CVE/CVE-2024-4083)
+- [CVE-2024-4085](https://ener1-s3c.github.io/CVE/CVE-2024-4085)
 - [CVE-2024-4086](https://ener1-s3c.github.io/CVE/CVE-2024-4086)
 
