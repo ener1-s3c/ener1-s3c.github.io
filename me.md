@@ -39,7 +39,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ade4174b-69b9-4527-a00f-4bac27839956)
 
-- June 2023 Acknowledged by Siber dan Sandi Provinsi DKI Jakarta for reporting Security Vulnerabilities in their systems. [Verify Certification](https://soc.jakarta.go.id//certificate/view?token=$2y$13$VLV1SapCenTQX2smbiw7weyalqI9tEcUhFL91UeKKQfnTp532OKGu)
+- June 2023 Acknowledged by Siber Sandi dan Aplikasi Dinas Komunikasi,Informatika dan Statistik Provinsi DKI Jakarta for reporting Security Vulnerabilities in their systems. [Verify Certification](https://soc.jakarta.go.id//certificate/view?token=$2y$13$VLV1SapCenTQX2smbiw7weyalqI9tEcUhFL91UeKKQfnTp532OKGu)
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/cc166b3e-1bd9-4804-a5b2-1a6503cc594b)
 
