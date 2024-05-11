@@ -24,5 +24,6 @@ title: Advisory
 - [CVE-2024-4104](https://ener1-s3c.github.io/CVE/CVE-2024-4104)
 - [CVE-2024-4312](https://ener1-s3c.github.io/CVE/CVE-2024-4312)
 - [CVE-2024-4314](https://ener1-s3c.github.io/CVE/CVE-2024-4314)
+- [CVE-2024-4417](https://ener1-s3c.github.io/CVE/CVE-2024-4417)
 - [CVE-2024-4463](https://ener1-s3c.github.io/CVE/CVE-2024-4463)
 
