@@ -14,6 +14,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - Medium : [Benedictus Jovan](https://medium.com/@0x4a6f76616e)
 - Hackerone : [Benedictus Jovan](https://hackerone.com/eneri)
 - Bugcrowd : [Benedictus Jovan](https://bugcrowd.com/ener1)
+- Wordfence : [Benedictus Jovan](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/benedictus-jovan)
 
 ## Work Experience
 - April 2020 - Aug 2021 (1 Year 5 Month), System Engineer [Maxplus Indonesia Anugerah](https://www.maxplus.co.id/)
