@@ -16,6 +16,7 @@ title: Advisory
 - [CVE-2024-3021](https://ener1-s3c.github.io/CVE/CVE-2024-3021)
 - [CVE-2024-3023](https://ener1-s3c.github.io/CVE/CVE-2024-3023)
 - [CVE-2024-3030](https://ener1-s3c.github.io/CVE/CVE-2024-3030)
+- [CVE-2024-3065](https://ener1-s3c.github.io/CVE/CVE-2024-3065)
 - [CVE-2024-4082](https://ener1-s3c.github.io/CVE/CVE-2024-4082)
 - [CVE-2024-4083](https://ener1-s3c.github.io/CVE/CVE-2024-4083)
 - [CVE-2024-4085](https://ener1-s3c.github.io/CVE/CVE-2024-4085)
@@ -26,6 +27,7 @@ title: Advisory
 - [CVE-2024-4204](https://ener1-s3c.github.io/CVE/CVE-2024-4204)
 - [CVE-2024-4312](https://ener1-s3c.github.io/CVE/CVE-2024-4312)
 - [CVE-2024-4314](https://ener1-s3c.github.io/CVE/CVE-2024-4314)
+- [CVE-2024-4409](https://ener1-s3c.github.io/CVE/CVE-2024-4409)
 - [CVE-2024-4417](https://ener1-s3c.github.io/CVE/CVE-2024-4417)
 - [CVE-2024-4463](https://ener1-s3c.github.io/CVE/CVE-2024-4463)
 
