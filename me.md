@@ -72,6 +72,9 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 <img width="1433" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/29a33028-2e62-4318-9ebf-a69b283dc72c">
 
+- May 2024 - Top 10 Researcher Hall of Fame Wordfence
+
+<img width="808" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/6f377fd2-17b9-4947-8c3e-2a03434fb7f5">
 
 
 
