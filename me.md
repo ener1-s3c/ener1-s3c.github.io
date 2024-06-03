@@ -76,6 +76,9 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 ![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/64ed472e-c82d-4aa6-bdc3-341660443bfb)
 
+- June 2024 - Rank 13 in Hackerone base on Country Reputation
+
+<img width="636" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/d536a939-32c7-4d51-b7f6-f9d0cf7d0687">
 
 
 
