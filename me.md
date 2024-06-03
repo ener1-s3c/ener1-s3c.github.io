@@ -74,7 +74,7 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 - May 2024 - Top 10 Researcher Hall of Fame Wordfence
 
-![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/64ed472e-c82d-4aa6-bdc3-341660443bfb)
+<img width="888" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/ca4ce1d1-efd3-4eef-804c-97c0a0dfa156">
 
 - June 2024 - Rank 13 in Hackerone base on Country Reputation
 
