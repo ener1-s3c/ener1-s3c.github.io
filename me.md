@@ -5,7 +5,7 @@ subtitle: Jovan
 ---
 
 ## About Me
-Security researcher, currently work as Vulnerability Assessor. I regularly do research for Public Program & Private Program on Hackerone & Bugcrowd, also I do research for Private Company. My research focus on Web Application Pentest & Network Pentest.
+Security researcher, currently work as Penetration Tester. I regularly do research for Public Program & Private Program on Hackerone, also I do research for Private Company. My research focus on Web Application Pentest & Network Pentest.
 
 ## Bio
 
@@ -13,7 +13,6 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - Linkedin : [Benedictus Jovan](https://linkedin.com/in/benedictus-jovan)
 - Medium : [Benedictus Jovan](https://medium.com/@0x4a6f76616e)
 - Hackerone : [Benedictus Jovan](https://hackerone.com/eneri)
-- Bugcrowd : [Benedictus Jovan](https://bugcrowd.com/ener1)
 - Wordfence : [Benedictus Jovan](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/benedictus-jovan)
 
 ## Work Experience
@@ -21,7 +20,6 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 - April 2021 - Mar 2022 (1 Year), Information Technology Security Analyst [Maxplus Indonesia Anugerah](https://www.maxplus.co.id/)
 - Dec 2022 - Dec 2023 (1 Year), Vulnerability Assessor [Q2 Technology](https://www.q2.co.id/)
 - Jan 2023 - Present, Freelance Security Researcher [Hackerone](https://hackerone.com/)
-- Jan 2023 - Present, Freelance Security Researcher [BugCrowd](https://bugcrowd.com/)
 
 ## Achievements
 
@@ -32,9 +30,6 @@ Security researcher, currently work as Vulnerability Assessor. I regularly do re
 
 
 ### Bug Bounty / VDP
-- Rank 1 on [Prolinx VDP](https://hackerone.com/prolinx-vdp/thanks?type=team)
-  
-![image](https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/69e58d89-5b7c-4b92-aacb-05eafcc416da)
 
 - June 2023 Acknowledged by Kementerian Komunikasi dan Informatika (Kominfo) for reporting Security Vulnerabilities in their systems. [Verify Certification](https://simaya.kominfo.go.id/tte/334b75b8-e1d7-4b99-9d33-2253001e6d02)
 
