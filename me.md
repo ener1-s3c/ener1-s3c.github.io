@@ -27,6 +27,7 @@ Security researcher, currently work as Penetration Tester. I regularly do resear
 - [Certified Soc Analyst (CSA)](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=yepEm8QXJtgk+yJPaIJuMHjPRQOduyqCKZ1+DcmBF7g=) Issued on Jan 2022
 - [EC-Council logo Certified Incident Handler (ECIH)](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=4OH+ykaGjxfL70wE4VRhcBr2ilzTU/loIoSqLQqmtIs=) Issued on Nov 2022
 - [eLearnSecurity Web application Penetration Tester (eWPT)](https://verified.elearnsecurity.com/certificates/f7606fd8-3c1c-48fe-9dde-67b1a6ed7880) Issued on May 2023
+- [eLearnSecurity Web application Penetration Tester Extreme (eWPTX)](https://certs.ine.com/d2f193d1-6016-4021-a075-c1a44e60146b#acc.kdeFb0SA?trk=public_profile_see-credential) Issued on July 2025
 
 
 ### Bug Bounty / VDP
@@ -75,6 +76,9 @@ Security researcher, currently work as Penetration Tester. I regularly do resear
 
 <img width="636" alt="image" src="https://github.com/ener1-s3c/ener1-s3c.github.io/assets/29269177/d536a939-32c7-4d51-b7f6-f9d0cf7d0687">
 
+- Rank 8 Tiktok Bug Bounty 2025
+
+<img width="1868" height="866" alt="tg_image_429410163" src="https://github.com/user-attachments/assets/a85834e3-b6d4-4a96-a82d-3f183b254791" />
 
 
 ### Blog
