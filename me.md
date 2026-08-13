@@ -82,7 +82,7 @@ Security researcher, currently work as Penetration Tester. I regularly do resear
 
 - Rank 10 Tiktok Bug Bounty 2026
 
-<img width="1280" height="418" alt="telegram-cloud-photo-size-5-6312303561261388988-y" src="https://github.com/user-attachments/assets/a127fac5-7018-46d7-915f-90d79eca94c3" />
+<img width="636" alt="image" src="https://github.com/user-attachments/assets/a127fac5-7018-46d7-915f-90d79eca94c3" />
 
 
 ### Blog
